@@ -1,0 +1,12 @@
+{
+  "login": [],
+  "register": [
+    {
+      "username": "ShahMeet",
+      "email": "meetshah@gmail.com",
+      "password": "meet123",
+      "id": 1
+    }
+  ],
+  "addblog": []
+}

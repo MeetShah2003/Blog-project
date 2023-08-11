@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up page</title>
+    <style>
+      @import url(../css/all.min.css);
+      @import url(../css/signup.css);
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="login-box">
+        <form action="" id="form">
+          <h2>Register</h2>
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-user"></i></span>
+            <input type="text" id="name" required />
+            <label>Name</label>
+            <span id="usererr"></span>
+          </div>
+          <!-- <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+            <input type="tel" id="mono" required />
+            <label>MobileNo</label>
+            <span id="monoerr"></span>
+          </div> -->
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" id="email" required />
+            <label>Email</label>
+            <span id="emailerr"></span>
+          </div>
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" id="passwd" required />
+            <label>Password</label>
+            <span id="passerr"></span>
+          </div>
+          <div class="remember-forgot">
+            <label> <input type="checkbox" />Remember me </label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+    <script src="../js/signup.js"></script>
+  </body>
+</html>
