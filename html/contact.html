@@ -13,48 +13,33 @@
     </style>
 </head>
 <body>
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <a href="#">
-                <span><img src="../img/logo.png" width="150px" alt=""></span>
-            </a>
-            <ul>
-                <li><a href="../html/index.html">Home</a></li>
-                <li><a href="../html/blog.html">Blog</a></li>
-                <li><a href="../html/addblog.html">Addblog</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <button><a href="../html/signin.html">Login</a></button>
-            <button><a href="../html/signup.html">Register</a></button>
-        </div>
-
-    </nav>
+    <div id="navbar"></div>
     <div class="max-width-1 m-auto">
         <hr>
     </div>
     <div class="contact-content font1 max-width-1 m-auto">
         <div class="max-width-1 m-auto mx-1">
             <h2>Feel Free to Contact Us</h2>
-            <div class="contact-form">
-                <div class="form-box">
-                    <input type="text" placeholder="Enter Your Name">
+            <form id="form">
+                <div class="contact-form">
+                    <div class="form-box">
+                        <input type="text" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-box">
+                        <input type="number" id="mono" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="form-box">
+                        <input type="email" id="email" placeholder="Enter Your Email Id">
+                    </div>
+                    <div class="form-box">
+                        <textarea name="" id="msg" cols="30" rows="10" placeholder="How may we help you?"></textarea>
+                    </div>
+                    <div class="form-box">
+                        <button class="btn">Submit</button>
+                    </div>
+    
                 </div>
-                <div class="form-box">
-                    <input type="text" placeholder="Enter Your Phone Number">
-                </div>
-                <div class="form-box">
-                    <input type="text" placeholder="Enter Your Email Id">
-                </div>
-                <div class="form-box">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="How may we help you?"></textarea>
-                </div>
-                <div class="form-box">
-                    <button class="btn">Submit</button>
-                </div>
-
-            </div>
+            </form>
         </div>
 
     </div>
@@ -66,5 +51,6 @@
         <p>Copyright &copy; iBlog.com </p>
          <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a> 
     </div>
+    <script type="module" src="../js/contact.js"></script>
 </body>
 </html>

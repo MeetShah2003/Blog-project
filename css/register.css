@@ -26,7 +26,7 @@ section{
 .login-box{
     position: relative;
     width: 400px;
-    height: 550px;
+    height: 580px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255,0.5);
     border-radius: 20px;
@@ -41,18 +41,19 @@ h2{
     font-size: 2em;
     color: #fff;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .input-box{
     position: relative;
     width: 310px;
-    margin: 30px 0px;
+    margin: 15px 0px;
     border-bottom: 2px solid #fff;
 }
 
 .input-box label{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 5%;
     transform: translateY(-50%);
     font-size: 1em;
@@ -61,11 +62,6 @@ h2{
     transition: all 0.5s;
 }
 
-.input-box input:focus~label,
-.input-box input:valid~label
-{
-    top: -5px;
-}
 
 .input-box input{
     width: 100%;
@@ -87,7 +83,7 @@ h2{
 }
 
 .remember-forgot{
-    margin: -15px 0px 15px;
+    margin: 30px 0px 15px;
     font-size: 0.9em;
     color: #fff;
     display: flex;
@@ -118,6 +114,7 @@ button{
     font-size: 1em;
     color: #000;
     font-weight: 500;
+    margin-top: 50px;
 }
 
 
@@ -132,40 +129,4 @@ button{
     .input-box{
         width: 290px;
     }
-}
-
-/* Sign up css */
-
-.navigation{
-    height: 74px;
-    background-color: red;
-    display: flex; 
-    justify-content: space-around;
-    align-items: center;
-}
-.content{
-    height: 95px;
-    background-color: blue;
-}
-.footer{
-    height: 50px;
-    background-color: blueviolet;
-}
-
-/* Sign up utilities */
-:root{
-    --main-bg-brown: brown;
-}
-
-.max-width-1{
-    max-width: 80vw;
-}
-
-.max-width-2{
-    max-width: 60vw;
-}
-
-
-.mx-auto{
-    margin: auto;
 }

@@ -50,7 +50,6 @@ a{
 
 .nav-left ul li a:hover {
   color: var(--main-bg-color);
-  font-weight: bold;
 }
 
 #btn-login,#btn-register{

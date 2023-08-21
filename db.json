@@ -1,0 +1,27 @@
+{
+  "register": [
+    {
+      "username": "ShahMeet",
+      "email": "meetshah@gmail.com",
+      "password": "meet123",
+      "id": 1
+    },
+    {
+      "name": "hello",
+      "email": "hello123@gmail.com",
+      "pass": "DFD#$%hello123",
+      "id": 2
+    }
+  ],
+  "addblog": [],
+  "contactus": [
+    {
+      "name": "ShahMeet",
+      "mono": "9889298187",
+      "email": "meetshah@gmail.com",
+      "msg": "sdfasdfasdfsdfsdfsdf",
+      "id": 1
+    }
+  ],
+  "blog":[]
+}
