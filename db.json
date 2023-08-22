@@ -13,7 +13,6 @@
       "id": 2
     }
   ],
-  "addblog": [],
   "contactus": [
     {
       "name": "ShahMeet",
@@ -23,5 +22,12 @@
       "id": 1
     }
   ],
-  "blog":[]
+  "blog": [
+    {
+      "title": "hello",
+      "category": "mens",
+      "img": "https://www.bumchums.in/media/catalog/product/cache/fcfa61961fc3340d1ac49c179d4989ac/1/0/1011-1.jpg",
+      "description": "asgfgjhgjeterterterte",
+      "id": 1
+    }]
 }

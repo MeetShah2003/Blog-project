@@ -16,8 +16,8 @@ const navbar=()=>{
             <button id="btn-login"><a href="html/login.html">Login</a></button>
             <button id="btn-register"><a href="html/register.html">Register</a></button>
         </div>
-
-    </nav>
+        </nav>
+        <center><hr width="1000px"></center>
     `
 }
 

@@ -52,31 +52,27 @@ a{
   color: var(--main-bg-color);
 }
 
+
 #btn-login,#btn-register{
-  position: relative;
   padding: 15px 30px;
   border-radius: 15px;
-  overflow: hidden;
   background-color: transparent;
+  border-color: #f08080;
+  transition: all ease-in-out 0.5s;
 }
 #btn-login a,#btn-register a{
   color: black;
-}
-#btn-login::before,#btn-register::before{
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 100px;
-  background-color: rgb(248, 146, 21);
-  top: 0px;
-  left: 0px;
+  font-size: 15px;
+  transition: all ease-in-out 0.5s;
   transition: all 0.5s;
-  z-index: -1;
 }
-#btn-login:hover::before,#btn-register:hover::before{
-  height: 0px;
+#btn-login:hover, #btn-register:hover{
+  background-color: black;
+  border: black;
 }
-
+#btn-login:hover a, #btn-register:hover a{
+  color: antiquewhite;
+}
 .content {
   height: 100%;
   display: flex;
