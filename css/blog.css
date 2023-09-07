@@ -1,0 +1,64 @@
+.bg-search {
+  position: relative;
+  background-color: #f08080;
+  overflow: hidden;
+  padding: 50px 20px;
+}
+.bg-search .search {
+  padding: 50px 20px;
+  width: 100%;
+}
+.align-center{
+  align-items: center;
+}
+.bg-search .search input {
+  padding: 9px 9px 9px 15px;
+  border: none;
+  background-color: #f2f2f7;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #f6653b;
+  width: 20%;
+}
+.bg-search .search input::-moz-placeholder {
+  font-size: 16px;
+}
+.bg-search .search input::placeholder {
+  font-size: 16px;
+}
+#btn-search{
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: rgb(137, 176, 248);
+  border: none;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+#btn-search a{
+  color: black;
+  font-size: 15px;
+  transition: all ease-in-out 0.5s;
+  transition: all 0.5s;
+}
+#btn-search:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+#btn-search:hover a{
+  color: antiquewhite;
+}
+.bg-search .search select {
+  position: absolute;
+  top: 40%;
+  right: 50px;
+  border: 1px solid #f6653b;
+  padding: 10px 20px;
+  margin-left: 800px;
+  color: #23222c;
+  border-radius: 10px;
+}
+.bg-search .search select option {
+  padding: 10px;
+}
+.bg-search .search select option:hover {
+  background-color: #f6653b;
+}

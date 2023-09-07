@@ -9,10 +9,37 @@
         @import url(../css/poppins.css);
         @import url(../css/style.css);
         @import url(../css/mobile.css);
+        @import url(../css/addblog.css);
+        @import url(../css/blog.css);
     </style>
 </head>
 <body>
     <div id="navbar"></div>
+    <section class="bg-search">
+        <div class="container">
+            <div>
+                <div class="search">
+                    <div class="row align-center">
+                            <input type="text" id="value" placeholder="Search by Category">
+                        <button id="btn-search">Search</button>
+                        <div>
+                            <select id="category">
+                                <option id="all" value="all">ALL</option>
+                                <option id="sports" value="sports">SPORTS</option>
+                                <option id="ecommerce" value="ecommerce">E-COMMERCE</option>
+                                <option id="news" value="news">NEWS</option>
+                                <option id="art" value="art">ART</option>
+                                <option id="photography" value="photography">PHOTOGRAPHY</option>
+                                <option id="socialmedia" value="socialmedia">SOCIALMEDIA</option>
+                                <option id="tech" value="tech">TECH</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="ui"></div>
     <script type="module" src="../js/blog.js"></script>
 </body>
 </html>

@@ -56,9 +56,10 @@ a{
 #btn-login,#btn-register{
   padding: 15px 30px;
   border-radius: 15px;
-  background-color: transparent;
-  border-color: #f08080;
+  border: none;
+  background-color: #f08080;
   transition: all ease-in-out 0.5s;
+  cursor: pointer;
 }
 #btn-login a,#btn-register a{
   color: black;
