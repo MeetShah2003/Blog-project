@@ -15,12 +15,13 @@ const findInput=()=>{
 };
 
 document.getElementById("inputValue").addEventListener("keypress",findInput);
-// document.getElementById("btn-seacrh").addEventListener("click",findInput);
-// document.getElementById("inputValue").addEventListener("keypress",(e)=>{
-//     if(e.key=="Enter"){
-//         findInput();
-//     }
-// });
+document.getElementById("btn-search").addEventListener("click",findInput);
+document.getElementById("inputValue").addEventListener("keypress",(e)=>{
+    if(e.key=="Enter"){
+        findInput();
+    }
+});
+
 
 const uimaker=(data)=>{
     document.getElementById("ui").innerHTML="";
@@ -41,6 +42,11 @@ const uimaker=(data)=>{
         let btn2=document.createElement("button");
         btn2.innerHTML=`Delete <i class="fa-solid fa-trash-can fa-bounce"></i>`;
         btn2.setAttribute("id","btn-delete");
+        btn2.addEventListener("click",()=>{
+            fetch(`http://localhost:1020/blog/${item.id}`,{
+                method:"DELETE"
+            });
+        });
         let div=document.createElement("div");
         div.append(img,title,category,btn1,btn2);
         div.style.padding="15px 0px";
