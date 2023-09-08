@@ -25,11 +25,22 @@
 .bg-search .search input::placeholder {
   font-size: 16px;
 }
-#btn-search{
+#btn-like i{
+  margin-left: 7px;
+  font-size: 18px;
+}
+#btn-delete i{
+  color: red;
+  font-weight: 500;
+  margin-left: 7px;
+  font-size: 18px;
+}
+#btn-search,#btn-like,#btn-delete{
   padding: 15px 30px;
   border-radius: 15px;
   background-color: rgb(137, 176, 248);
   border: none;
+  font-size: 18px;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
 }
@@ -39,7 +50,7 @@
   transition: all ease-in-out 0.5s;
   transition: all 0.5s;
 }
-#btn-search:hover{
+#btn-search:hover,#btn-like:hover,#btn-delete:hover{
   background-color: black;
   color: whitesmoke;
 }
